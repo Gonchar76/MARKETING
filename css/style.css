@@ -282,9 +282,11 @@ a {
   align-items: center;
   margin-bottom: 100px;
 }
-.portfolio__filter-btn{
+
+.portfolio__filter-btn {
   margin-right: 40px;
 }
+
 .portfolio__btn {
   background-color: transparent;
   border: none;
@@ -294,12 +296,14 @@ a {
   color: #333;
   letter-spacing: 2px;
   text-transform: uppercase;
- padding: 0 4px 5px;
+  padding: 0 4px 5px;
   margin-right: 25px;
 }
-.mixitup-control-active{
+
+.mixitup-control-active {
   border-bottom: 2px solid #FCBB08;
 }
+
 .porfolio__content {
   column-count: 4;
   column-gap: 22px;
@@ -313,6 +317,7 @@ a {
   margin-bottom: 22px;
   position: relative;
 }
+
 .portfolio__item-link {
   position: absolute;
   top: 0;
@@ -333,9 +338,11 @@ a {
   opacity: 0;
   transition: all .3s;
 }
-.portfolio__item:hover .portfolio__item-link{
+
+.portfolio__item:hover .portfolio__item-link {
   opacity: 1;
 }
+
 .portfolio__add {
   display: block;
   font-family: 'Montserrat', sans-serif;
@@ -349,7 +356,7 @@ a {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 130px;
- 
+
 }
 
 .blockquote {
@@ -410,4 +417,70 @@ a {
   line-height: 19px;
   color: #333;
   display: block;
+}
+
+/*--------------------------------------slider-blog------------------------------------------------------------------------------------------------------------------------------------- */
+
+.slider-blog {
+  background-color: #f8f6fa;
+  padding: 115px 0;
+}
+.slider-blog__item{
+  padding: 190px 0;
+}
+.slider-blog__item-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 52px;
+  color: #242121;
+  margin-bottom: 10px;
+  max-width: 675px;
+  display: inline-block;
+}
+
+.slider-blog__item-descr {
+  max-width: 585px;
+}
+
+.slick-dots {
+  display: flex;
+
+}
+
+.slick-dots li+li {
+  margin-left: 13px;
+}
+
+.slick-dots button {
+  background-color: #242121;
+  opacity: 0.4;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  font-size: 0;
+  padding: 0;
+  border: none;
+
+}
+.slick-dots .slick-active button {
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  transform: translateY(-2px);
+}
+.slick-prev,
+.slick-next{
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-150%);
+}
+.slick-prev{
+  right: -95px;
+}
+.slick-next{
+ left: -95px;
 }
