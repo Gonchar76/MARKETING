@@ -484,3 +484,109 @@ a {
 .slick-next{
  left: -95px;
 }
+/*--------------------------------------Our Team------------------------------------------------------------------------------------------------------------------------------------- */
+
+.team {
+  padding: 120px 0 130px;
+}
+.team__title{
+ margin-bottom: 100px;
+}
+
+
+
+
+.team__items {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+
+
+.team__name {
+  padding: 35px 0 12px;
+  font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333;
+}
+
+.team__position {
+  font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #373A39;
+}
+
+/*--------------------------------------Our Team------------------------------------------------------------------------------------------------------------------------------------- */
+.pricing {
+  background-color: #F6F8FA;
+  padding: 145px 0 160px;
+}
+.pricing__title{
+  margin-bottom: 90px;
+}
+
+.pricing__items {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+ul.pricing__item {
+  background-color: #fff;
+      text-align: center;
+      padding: 24px 25px 50px;
+        width: 370px;
+}
+.pricing__item li{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242121;
+  margin-bottom: 30px;
+
+}
+li.pricing__item-name {
+  font-family: 'Open Sans',sans-serif;
+  text-align: left;
+  margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242121;
+}
+
+li.pricing__item-num {
+    font-size: 80px;
+    line-height: 109px;
+    margin-bottom: 50px;
+}
+.pricing__item-num sup{
+  font-size: 40px;
+  line-height: 54px;
+}
+.pricing__item-link  {
+  font-family: 'Montserrat',sans-serif;
+  display: block;
+  margin-top: 70px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.2px;
+    color: #242121;
+}
+/*--------------------------------------Clients------------------------------------------------------------------------------------------------------------------------------------- */
+.clients {
+  padding: 70px 0 95px;
+}
+
+.clients__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*--------------------------------------Connection------------------------------------------------------------------------------------------------------------------------------------- */
