@@ -425,9 +425,11 @@ a {
   background-color: #f8f6fa;
   padding: 115px 0;
 }
-.slider-blog__item{
+
+.slider-blog__item {
   padding: 190px 0;
 }
+
 .slider-blog__item-title {
   font-weight: bold;
   font-size: 36px;
@@ -462,14 +464,16 @@ a {
   border: none;
 
 }
+
 .slick-dots .slick-active button {
   opacity: 1;
   width: 10px;
   height: 10px;
   transform: translateY(-2px);
 }
+
 .slick-prev,
-.slick-next{
+.slick-next {
   border: none;
   background-color: transparent;
   padding: 0;
@@ -478,19 +482,23 @@ a {
   top: 50%;
   transform: translateY(-150%);
 }
-.slick-prev{
+
+.slick-prev {
   right: -95px;
 }
-.slick-next{
- left: -95px;
+
+.slick-next {
+  left: -95px;
 }
+
 /*--------------------------------------Our Team------------------------------------------------------------------------------------------------------------------------------------- */
 
 .team {
   padding: 120px 0 130px;
 }
-.team__title{
- margin-bottom: 100px;
+
+.team__title {
+  margin-bottom: 100px;
 }
 
 
@@ -506,19 +514,19 @@ a {
 
 .team__name {
   padding: 35px 0 12px;
-  font-family: 'Montserrat',sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333;
 }
 
 .team__position {
-  font-family: 'Open Sans',sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 16px;
-    color: #373A39;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #373A39;
 }
 
 /*--------------------------------------Our Team------------------------------------------------------------------------------------------------------------------------------------- */
@@ -526,23 +534,25 @@ a {
   background-color: #F6F8FA;
   padding: 145px 0 160px;
 }
-.pricing__title{
+
+.pricing__title {
   margin-bottom: 90px;
 }
 
 .pricing__items {
-    display: flex;
-    justify-content: space-between;
-  
+  display: flex;
+  justify-content: space-between;
+
 }
 
 ul.pricing__item {
   background-color: #fff;
-      text-align: center;
-      padding: 24px 25px 50px;
-        width: 370px;
+  text-align: center;
+  padding: 24px 25px 50px;
+  width: 370px;
 }
-.pricing__item li{
+
+.pricing__item li {
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;
@@ -550,35 +560,39 @@ ul.pricing__item {
   margin-bottom: 30px;
 
 }
+
 li.pricing__item-name {
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: left;
   margin-bottom: 8px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    color: #242121;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242121;
 }
 
 li.pricing__item-num {
-    font-size: 80px;
-    line-height: 109px;
-    margin-bottom: 50px;
+  font-size: 80px;
+  line-height: 109px;
+  margin-bottom: 50px;
 }
-.pricing__item-num sup{
+
+.pricing__item-num sup {
   font-size: 40px;
   line-height: 54px;
 }
-.pricing__item-link  {
-  font-family: 'Montserrat',sans-serif;
+
+.pricing__item-link {
+  font-family: 'Montserrat', sans-serif;
   display: block;
   margin-top: 70px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 1.2px;
-    color: #242121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1.2px;
+  color: #242121;
 }
+
 /*--------------------------------------Clients------------------------------------------------------------------------------------------------------------------------------------- */
 .clients {
   padding: 70px 0 95px;
@@ -589,4 +603,119 @@ li.pricing__item-num {
   justify-content: space-between;
   align-items: center;
 }
+
 /*--------------------------------------Connection------------------------------------------------------------------------------------------------------------------------------------- */
+.connection {
+  padding: 145px 0 160px;
+  background-image: url(../img/map.jpg);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: right 65%;
+}
+.connection__title{
+  margin-bottom: 80px;
+}
+.form {
+  max-width: 570px;
+}
+
+.form input,
+.form textarea{
+  border: none;
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #373A39;
+  font-size: 12px;
+  line-height: 20px;
+  color: #B8B8B8;
+  letter-spacing: 3.70909px;
+  padding: 16px 0;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+.form input::placeholder,
+.form textarea::placeholder{
+  font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 3.70909px;
+    color: #B8B8B8;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.form textarea{
+  min-height: 140px;
+  resize: none;
+}
+.form button{
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 17px 70px 15px;
+    border: none;
+    background-color: #242121;
+    cursor: pointer;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+/*--------------------------------------Footer------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.footer__top {
+  padding: 110px 10px 60px;
+  background-color: #333;
+  text-align: center;
+}
+
+.footer__logo {
+  display: inline-block;
+  padding: 0 35px 4px;
+  border-bottom: 2px solid #FCBB08;
+  margin-bottom: 70px;
+}
+
+ul.footer__social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 65px;
+}
+
+.footer__social-list {
+  padding: 0 15px;
+}
+
+.footer__social-link {
+  font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 4px;
+    color: #FFF;
+}
+.footer__contact{
+    font-size: 14px;
+    line-height: 32px;
+    color: #FFF;
+}
+.footer__contact a{
+display: block;
+margin: 10px 0;
+color: #FFF;
+margin-bottom: 60px;
+}
+.go-top {
+  display: inline-block;
+}
+
+.footer__copy {
+  padding: 40px 10px;
+  background: #2a2c2b;
+  text-align: center;
+    font-size: 12px;
+      line-height: 16px;
+      color: #ccc;
+}
