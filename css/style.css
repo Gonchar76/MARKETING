@@ -53,11 +53,16 @@ a {
   align-items: flex-end;
 }
 
-.menu__list {
-  display: flex;
+.menu__btn {
+  display: none;
 }
 
-.menu__list-item+.menu__list-item {
+.menu__list {
+  display: flex;
+  align-items: center;
+}
+
+.menu__list-item.menu__list-item {
   margin-left: 32px;
 }
 
@@ -284,7 +289,7 @@ a {
 }
 
 .portfolio__filter-btn {
-  margin-right: 40px;
+  margin-right: 65px;
 }
 
 .portfolio__btn {
@@ -297,7 +302,11 @@ a {
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 0 4px 5px;
-  margin-right: 25px;
+  outline-color: #fcbb08;
+}
+
+.portfolio__btn+.portfolio__btn {
+  margin-left: 25px;
 }
 
 .mixitup-control-active {
@@ -369,7 +378,7 @@ a {
   font-size: 18px;
   line-height: 36px;
   color: #242121;
-
+  padding: 0 10px;
 }
 
 .blockquote__author {
@@ -612,15 +621,17 @@ li.pricing__item-num {
   background-size: 40%;
   background-position: right 65%;
 }
-.connection__title{
+
+.connection__title {
   margin-bottom: 80px;
 }
+
 .form {
   max-width: 570px;
 }
 
 .form input,
-.form textarea{
+.form textarea {
   border: none;
   display: block;
   width: 100%;
@@ -633,34 +644,38 @@ li.pricing__item-num {
   margin-bottom: 16px;
   font-weight: bold;
 }
+
 .form input::placeholder,
-.form textarea::placeholder{
+.form textarea::placeholder {
   font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 3.70909px;
-    color: #B8B8B8;
-    text-transform: uppercase;
-    font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 3.70909px;
+  color: #B8B8B8;
+  text-transform: uppercase;
+  font-weight: 300;
 }
-.form textarea{
+
+.form textarea {
   min-height: 140px;
   resize: none;
 }
-.form button{
+
+.form button {
   font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 11px;
-    line-height: 13px;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 17px 70px 15px;
-    border: none;
-    background-color: #242121;
-    cursor: pointer;
-    margin-top: 40px;
-    letter-spacing: 2px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 17px 70px 15px;
+  border: none;
+  background-color: #242121;
+  cursor: pointer;
+  margin-top: 40px;
+  letter-spacing: 2px;
 }
+
 /*--------------------------------------Footer------------------------------------------------------------------------------------------------------------------------------------- */
 
 
@@ -688,25 +703,28 @@ ul.footer__social {
 }
 
 .footer__social-link {
-  font-family: 'Montserrat',sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: 4px;
-    color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 4px;
+  color: #FFF;
 }
-.footer__contact{
-    font-size: 14px;
-    line-height: 32px;
-    color: #FFF;
+
+.footer__contact {
+  font-size: 14px;
+  line-height: 32px;
+  color: #FFF;
 }
-.footer__contact a{
-display: block;
-margin: 10px 0;
-color: #FFF;
-margin-bottom: 60px;
+
+.footer__contact a {
+  display: block;
+  margin: 10px 0;
+  color: #FFF;
+  margin-bottom: 60px;
 }
+
 .go-top {
   display: inline-block;
 }
@@ -715,7 +733,7 @@ margin-bottom: 60px;
   padding: 40px 10px;
   background: #2a2c2b;
   text-align: center;
-    font-size: 12px;
-      line-height: 16px;
-      color: #ccc;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ccc;
 }
