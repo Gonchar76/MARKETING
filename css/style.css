@@ -1,3 +1,6 @@
+html{
+  box-sizing: border-box;
+}
 select {
   font: inherit;
 }
@@ -46,6 +49,14 @@ a {
 }
 
 /* --------------------------------------HEADER BLOCK-------------------------------------------------------------------------------------------------------------------------------------- */
+.header__top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 999;
+}
 .header__top-inner {
   padding-bottom: 29px;
   display: flex;
@@ -87,6 +98,7 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+padding-top: 110px;
 
 
 }
